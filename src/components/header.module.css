@@ -1,0 +1,50 @@
+header{
+    width: 100vw;
+    height: 10vh;
+    padding: 2%;
+    background: rgb(232, 202, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+header > .leftHeader{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logoHeader > a > h1{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: black;
+  }
+
+  /* Side Bar----------- */
+  .sideBar > .aside > ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+  }
+  .sideBar > .aside > ul > li{
+    border-bottom: 3px transparent solid;
+    transition: 0.4s ease;
+  }
+  .sideBar > .aside > ul > li:hover{
+    border-bottom: 3px whitesmoke solid;
+  }
+  .sideBar > .aside > ul > li > a{
+    color: black;
+    padding: 20px 10px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Butão do Side bar --------------------*/
+  .sideBar > .aside > ul > li:nth-child(1){
+    display: none;
+  }
